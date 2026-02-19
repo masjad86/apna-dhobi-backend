@@ -1,11 +1,3 @@
-using System.Threading.RateLimiting;
-using Gateway.Api.HealthChecks;
-using Gateway.Api.Models.Settings;
-using Microsoft.AspNetCore.Authentication;
-using Ocelot.Middleware;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using Swashbuckle.AspNetCore.SwaggerUI;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -31,6 +23,7 @@ builder.Services.AddSwaggerGen(config =>
             Name = swaggerSettings.Contact.Name,
             Email = swaggerSettings.Contact.Email,
             Url = new Uri(swaggerSettings.Contact.Url)
+        },
     });
 });
 
@@ -41,20 +34,38 @@ builder.Services.AddHealthChecks()
 builder.Services.AddHttpClient();
 builder.Services.AddRateLimiter(options =>
 {
-    options.AddPolicy("Global", context =>
-        RateLimitPartition.GetFixedWindowLimiter(
-            partitionKey: context.Connection.RemoteIpAddress?.ToString() ?? "unknown",
-            factory: _ => new FixedWindowRateLimiterOptions
-            {
-                PermitLimit = 100,
-                Window = TimeSpan.FromMinutes(1),
-                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
-                QueueLimit = 0
-            }));
+    // options.AddPolicy("Global", context =>
+    //     RateLimitPartition.GetFixedWindowLimiter(
+    //         partitionKey: context.Connection.RemoteIpAddress?.ToString() ?? "unknown",
+    //         factory: _ => new FixedWindowRateLimiterOptions
+    //         {
+    //             PermitLimit = 100,
+    //             Window = TimeSpan.FromMinutes(1),
+    //             QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+    //             QueueLimit = 0
+    //        }));
 });
 
-builder.Services.AddAuthentication("ApiKeyScheme")
-    .AddScheme<AuthenticationSchemeOptions, ApiKeyAuthenticationHandler>("ApiKeyScheme", null);
+builder.Services.AddAuthentication(config =>
+{
+    config.DefaultAuthenticateScheme = "ApiKeyScheme";
+    config.DefaultChallengeScheme = "ApiKeyScheme";
+}).AddJwtBearer("ApiKeyScheme", options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidAudience = jwtSettings.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
+        ClockSkew = TimeSpan.Zero
+    };
+});
+// builder.Services.AddAuthentication("ApiKeyScheme")
+//     .AddScheme<AuthenticationSchemeOptions, ApiKeyAuthenticationHandler>("ApiKeyScheme", null);
 
 builder.Services.AddAuthorization(options =>
 {
@@ -67,7 +78,7 @@ builder.Services.AddAuthorization(options =>
 
 var app = builder.Build();
 
-await app.UseOcelot().ConfigureAwait(false);
+// app.UseOcelot().Wait();
 app.MapHealthChecks("/health");
 app.MapHealthChecks("/health/ready");
 
@@ -75,10 +86,10 @@ app.MapHealthChecks("/health/ready");
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwaggerUI(config =>
-    {
-        config.SwaggerEndpoint("/swagger/v1/swagger.json", swaggerSettings?.Title);
-    });
+    // app.UseSwaggerUI(config =>
+    // {
+    //     config.SwaggerEndpoint("/swagger/v1/swagger.json", swaggerSettings?.Title);
+    // });
     app.UseDeveloperExceptionPage();
 }
 
