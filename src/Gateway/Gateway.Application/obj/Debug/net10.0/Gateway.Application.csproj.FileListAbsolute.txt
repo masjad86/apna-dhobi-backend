@@ -1,0 +1,12 @@
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/bin/Debug/net10.0/Gateway.Application.deps.json
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/bin/Debug/net10.0/Gateway.Application.dll
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/bin/Debug/net10.0/Gateway.Application.pdb
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.AssemblyInfoInputs.cache
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.AssemblyInfo.cs
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.csproj.CoreCompileInputs.cache
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.sourcelink.json
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.dll
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/refint/Gateway.Application.dll
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/Gateway.Application.pdb
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/Debug/net10.0/ref/Gateway.Application.dll

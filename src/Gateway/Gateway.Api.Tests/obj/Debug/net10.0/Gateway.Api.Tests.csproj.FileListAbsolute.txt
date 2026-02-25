@@ -1,0 +1,6 @@
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.csproj.AssemblyReference.cache
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.AssemblyInfoInputs.cache
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.AssemblyInfo.cs
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.csproj.CoreCompileInputs.cache
+/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/Debug/net10.0/Gateway.Api.Tests.sourcelink.json

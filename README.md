@@ -32,5 +32,9 @@ A Gateway API is a single entry point that sits in front of multiple backend ser
 
 ### AspNetCore CLI Command
 **Run tests**: dotnet test
-**Run build**: dotnet run build
+**Run build**: dotnet build
+**Run build-no-restore: dotnet build --no-restore
+**Run app: dotnet run <project>
+**Run add-package: dotnet add package <package_name>
+**Run remove-package: dotnet remove package <package_name>
 

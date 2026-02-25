@@ -1,0 +1,13 @@
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.csproj.AssemblyReference.cache
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.AssemblyInfoInputs.cache
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.AssemblyInfo.cs
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.csproj.CoreCompileInputs.cache
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.sourcelink.json
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/bin/Debug/net10.0/Core.Infrastructure.deps.json
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/bin/Debug/net10.0/Core.Infrastructure.dll
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/bin/Debug/net10.0/Core.Infrastructure.pdb
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.dll
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/refint/Core.Infrastructure.dll
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/Core.Infrastructure.pdb
+/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/Debug/net10.0/ref/Core.Infrastructure.dll
