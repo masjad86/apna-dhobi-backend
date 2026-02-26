@@ -3,14 +3,18 @@ Apna dhobi backend designed with microservices architecture to break down the la
 
 ### Services
 
+- Administration 
 - Core
-- Administration
+- Infrastructure
 - Gateway
 - Order
 - Delivery
 - Payment
 - Pricing
 - Notification
+
+
+##### Administration
 
 ##### Core
 
@@ -29,12 +33,17 @@ A Gateway API is a single entry point that sits in front of multiple backend ser
 - Gateway.Domain
 - Gateway.Infrastructure
 
+##### Insfrastructure
+
+This is will be act as comman or shared functionality which will be accessible to other microservices via nuget package, Infrastructure solution will include the functionalities like:
+
+- **Email**: This service will help to send the email and work as abstract layer IEmailSender contract and the base implementation for all the microservices apps and this will provide the configuration to use different email provider so that in future if needs to changed the email provider like STMP to SendGrid or others so that it will give you the abstract layer to provider the EmailSettings class to configure with ease.
+- 
 
 ### AspNetCore CLI Command
 **Run tests**: dotnet test
 **Run build**: dotnet build
-**Run build-no-restore: dotnet build --no-restore
-**Run app: dotnet run <project>
-**Run add-package: dotnet add package <package_name>
-**Run remove-package: dotnet remove package <package_name>
-
+**Run build-no-restore**: dotnet build --no-restore
+**Run app**: dotnet run <project>
+**Run add-package**: dotnet add package <package_name>
+**Run remove-package**: dotnet remove package <package_name>

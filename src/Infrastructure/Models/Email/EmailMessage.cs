@@ -48,15 +48,6 @@ public sealed class EmailMessage
     public IReadOnlyDictionary<string, string>? AdditionalFields { get; init; }
 
     public EmailMessage() { }
-    public EmailMessage(string subject, string htmlBody, IReadOnlyCollection<string> to, IReadOnlyCollection<string>? cc = null, IReadOnlyCollection<string>? bcc = null, IReadOnlyCollection<EmailAttachment>? attachments = null)
-    {
-        Subject = subject;
-        HtmlBody = htmlBody;
-        To = to;
-        Cc = cc;
-        Bcc = bcc;
-        Attachments = attachments;
-    }
 }
 
 public sealed class EmailAttachment
