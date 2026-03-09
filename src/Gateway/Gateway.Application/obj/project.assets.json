@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/Gateway.Application.csproj",
+      "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application/Gateway.Application.csproj",
       "projectName": "Gateway.Application",
-      "projectPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/Gateway.Application.csproj",
+      "projectPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application/Gateway.Application.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/obj/",
+      "outputPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

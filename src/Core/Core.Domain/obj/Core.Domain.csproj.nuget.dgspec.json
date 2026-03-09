@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/apna-dhobi-backend/Core/Core.Domain/Core.Domain.csproj": {}
+    "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/Core.Domain.csproj": {}
   },
   "projects": {
-    "/workspaces/apna-dhobi-backend/Core/Core.Domain/Core.Domain.csproj": {
+    "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/apna-dhobi-backend/Core/Core.Domain/Core.Domain.csproj",
+        "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "/workspaces/apna-dhobi-backend/Core/Core.Domain/Core.Domain.csproj",
+        "projectPath": "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/Core.Domain.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/apna-dhobi-backend/Core/Core.Domain/obj/",
+        "outputPath": "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

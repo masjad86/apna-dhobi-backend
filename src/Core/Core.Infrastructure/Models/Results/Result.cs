@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace Core.Infrastructure.Models.Results;
+namespace ApnaDhobi.Core.Infrastructure.Models;
 
 public sealed class Result
 {

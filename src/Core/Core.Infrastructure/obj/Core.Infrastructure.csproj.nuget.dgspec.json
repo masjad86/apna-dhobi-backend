@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/Core.Infrastructure.csproj": {}
+    "/workspaces/apna-dhobi-backend/src/Core/Core.Infrastructure/Core.Infrastructure.csproj": {}
   },
   "projects": {
-    "/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/Core.Infrastructure.csproj": {
+    "/workspaces/apna-dhobi-backend/src/Core/Core.Infrastructure/Core.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/Core.Infrastructure.csproj",
+        "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Core/Core.Infrastructure/Core.Infrastructure.csproj",
         "projectName": "Core.Infrastructure",
-        "projectPath": "/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/Core.Infrastructure.csproj",
+        "projectPath": "/workspaces/apna-dhobi-backend/src/Core/Core.Infrastructure/Core.Infrastructure.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/apna-dhobi-backend/Core/Core.Infrastructure/obj/",
+        "outputPath": "/workspaces/apna-dhobi-backend/src/Core/Core.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.3, )"
             }
           },
           "imports": [

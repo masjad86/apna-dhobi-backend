@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DUL5KoIZrfc=",
+  "dgSpecHash": "asftIan0zf4=",
   "success": true,
-  "projectFilePath": "/workspaces/apna-dhobi-backend/Core/Core.Domain/Core.Domain.csproj",
+  "projectFilePath": "/workspaces/apna-dhobi-backend/src/Core/Core.Domain/Core.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

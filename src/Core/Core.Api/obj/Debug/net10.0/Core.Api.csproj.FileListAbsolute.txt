@@ -1,0 +1,9 @@
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.csproj.AssemblyReference.cache
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.AssemblyInfoInputs.cache
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.AssemblyInfo.cs
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.csproj.CoreCompileInputs.cache
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/apna-dhobi-backend/src/Core/Core.Api/obj/Debug/net10.0/Core.Api.sourcelink.json

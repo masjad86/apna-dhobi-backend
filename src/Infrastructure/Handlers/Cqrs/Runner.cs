@@ -12,28 +12,28 @@ namespace ApnaDhobi.Infrastructure.Handlers;
 public sealed class Runner(IMediator mediator, ILogger<Runner> logger) : IRunner
 {
     /// <inheritdoc/>
-    public async Task Run(ICommand command, CancellationToken cancellationToken = default)
+    public async Task RunAsync(ICommand command, CancellationToken cancellationToken = default)
     {
         logger.LogInformation("Running command: {Command}", command.GetType().Name);
         await mediator.Send(command, cancellationToken);
     }
 
     /// <inheritdoc/>
-    public async Task<T> Run<T>(ICommand<T> command, CancellationToken cancellationToken = default)
+    public async Task<T> RunAsync<T>(ICommand<T> command, CancellationToken cancellationToken = default)
     {
         logger.LogInformation("Running command: {Command} and type: {Name}", command.GetType().Name, typeof(T).Name);
         return await mediator.Send(command, cancellationToken);
     }
 
     /// <inheritdoc/>
-    public Task Run(IQuery query, CancellationToken cancellationToken = default)
+    public async Task RunAsync(IQuery query, CancellationToken cancellationToken = default)
     {
         logger.LogInformation("Running query: {Query}", query.GetType().Name);
-        return mediator.Send(query, cancellationToken);
+        await mediator.Send(query, cancellationToken);
     }
 
     /// <inheritdoc/>
-    public async Task<T> Run<T>(IQuery<T> query, CancellationToken cancellationToken = default)
+    public async Task<T> RunAsync<T>(IQuery<T> query, CancellationToken cancellationToken = default)
     {
         logger.LogInformation("Running query: {Query} and type: {Name}", query.GetType().Name, typeof(T).Name);
         return await mediator.Send(query, cancellationToken);

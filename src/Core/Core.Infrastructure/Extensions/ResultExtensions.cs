@@ -1,5 +1,6 @@
 using System.Net;
-using Core.Infrastructure.Models.Results;
+using ApnaDhobi.Core.Infrastructure.Models;
+namespace ApnaDhobi.Core.Infrastructure.Extensions;
 
 public static class ResultExtensions
 {

@@ -882,11 +882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/Gateway.Api.Tests.csproj",
+      "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api.Tests/Gateway.Api.Tests.csproj",
       "projectName": "Gateway.Api.Tests",
-      "projectPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/Gateway.Api.Tests.csproj",
+      "projectPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api.Tests/Gateway.Api.Tests.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api.Tests/obj/",
+      "outputPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

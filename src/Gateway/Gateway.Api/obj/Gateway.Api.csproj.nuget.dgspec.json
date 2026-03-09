@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api/Gateway.Api.csproj": {}
+    "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api/Gateway.Api.csproj": {}
   },
   "projects": {
-    "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api/Gateway.Api.csproj": {
+    "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api/Gateway.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api/Gateway.Api.csproj",
+        "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api/Gateway.Api.csproj",
         "projectName": "Gateway.Api",
-        "projectPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api/Gateway.Api.csproj",
+        "projectPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api/Gateway.Api.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Api/obj/",
+        "outputPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

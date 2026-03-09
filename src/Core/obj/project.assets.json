@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/apna-dhobi-backend/Core/Core.csproj",
+      "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Core/Core.csproj",
       "projectName": "Core",
-      "projectPath": "/workspaces/apna-dhobi-backend/Core/Core.csproj",
+      "projectPath": "/workspaces/apna-dhobi-backend/src/Core/Core.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/apna-dhobi-backend/Core/obj/",
+      "outputPath": "/workspaces/apna-dhobi-backend/src/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YjCXF3/o/8Y=",
+  "dgSpecHash": "3ZbK/lIoCyU=",
   "success": true,
-  "projectFilePath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application/Gateway.Application.csproj",
+  "projectFilePath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application/Gateway.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

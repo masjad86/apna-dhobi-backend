@@ -1,4 +1,3 @@
-using ApnaDhobi.Infrastructure.Models;
 using MediatR;
 
 namespace ApnaDhobi.Infrastructure.Interfaces;

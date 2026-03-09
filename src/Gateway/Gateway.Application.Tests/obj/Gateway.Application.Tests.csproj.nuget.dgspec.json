@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj": {}
+    "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj": {}
   },
   "projects": {
-    "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj": {
+    "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj",
+        "projectUniqueName": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj",
         "projectName": "Gateway.Application.Tests",
-        "projectPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj",
+        "projectPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application.Tests/Gateway.Application.Tests.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/apna-dhobi-backend/Gateway/Gateway.Application.Tests/obj/",
+        "outputPath": "/workspaces/apna-dhobi-backend/src/Gateway/Gateway.Application.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
